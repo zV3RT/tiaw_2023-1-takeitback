@@ -1,0 +1,90 @@
+/*** HEADER ***/
+header {
+    height: 65px;
+    font-size: 1.1rem;
+    background-color: #272727;
+    font-weight: 600 !important;
+}
+
+/*** LINKS ***/
+@media (min-width: 992px) {
+
+    header .nav-link:hover,
+    header .active {
+        border-bottom: solid 3px #4473C5;
+    }
+}
+
+header .nav-link {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content !important;
+    color: #ffffff !important;
+}
+
+header .nav-link:hover {
+    transition: color 0.8s;
+    color: #4473C5 !important;
+}
+
+header .active {
+    color: #4473C5 !important;
+}
+
+header .dropdown-menu {
+    width: max-content;
+    background-color: #272727;
+    border: #7F7F7F solid 1px;
+}
+
+header .dropdown-item {
+    color: white;
+
+}
+
+header .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #4473C5;
+}
+
+/*** ICON USER ***/
+header #icon-user {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+/*** BUTTON  MENU MOBILE ***/
+header .navbar-toggler {
+    padding: 3px;
+    margin-left: -10px;
+    border: none;
+}
+
+/*** /HEADER ***/
+
+/*** FOOTER ***/
+footer {
+    color: #7F7F7F;
+    font-size: 0.8rem;
+    padding: 2px 15px;
+    background-color: #272727;
+    font-weight: 600 !important;
+}
+footer .nav-link{
+    color: white;
+}
+footer .nav-link:hover{
+    transition: color 0.8s;
+    color: #4473C5 !important;
+}
+.icon-network i{
+    padding: 5px;
+    font-size: 22px;
+}
+/*** /FOOTER ***/
+
+/*** MAIN ***/
+main{
+    min-height: calc(100vh - 65px);
+}
+/*** /MAIN ***/
