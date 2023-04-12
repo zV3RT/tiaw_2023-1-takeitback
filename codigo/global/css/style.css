@@ -1,7 +1,12 @@
+/*** GERAL ***/
+body{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*** /GERAL ***/
 /*** HEADER ***/
 header {
     height: 65px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     background-color: #272727;
     font-weight: 600 !important;
 }
@@ -85,6 +90,7 @@ footer .nav-link:hover{
 
 /*** MAIN ***/
 main{
+    padding: 20px;
     min-height: calc(100vh - 65px);
 }
 /*** /MAIN ***/
